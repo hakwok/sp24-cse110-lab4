@@ -53,4 +53,7 @@
 
 15. The main difference between == and === is that === checks the type as well, meaning that if the compared types are not the same it would return false.
 
-16. 
+17. It first initializes the array newArr as empty and then proceeds through the for loop to push need elements into newArray depending on the input array length (in this case 3). In each iteration, the callbackfunction is called during each push which multiplies each existing element in array by 2 which results in the final array of [2, 4, 6].
+
+19. the output would be 1 4 3 2 since the 1 and 4 are printed immediately when the line runs and 3 when the queue ends and 2 last (after 1 second).
+
