@@ -1,0 +1,2 @@
+1. The bug is that when we retrieve the value with .value it gives it to us in the form of a string not an int. Therefore, leading to string addition.
+2. I would fix it by wrapping num1 and num2 with parseint(), or prasefloat() if we need to consider decimals, in order to convert them into integers/float numbers.
